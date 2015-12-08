@@ -9,10 +9,12 @@
 
 //Function Definitions
 
-string Add::evaluate() {
-	//...
+//Constructor
+
+string Addition::evaluate() {
+
 }
 
-void Add::print() {
+void Addition::print() {
 	// (left `+` right)
 }

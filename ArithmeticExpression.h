@@ -11,17 +11,21 @@
 #ifndef ARITHMETICEXPRESSION_H	//if not defined...
 #define ARITHMETICEXPRESSION_H
 
-#include <iostream>
+#include <algorithm>
 #include <string>
+#include <iostream>
+#include <cctype>
+#include "Expression.h"
 using namespace std;
 
 class ArithmeticExpression : public Expression {
-	Expression *left;	//declaration of pointer variable 'left'
-	Expression *right;	//declaration of pointer variable 'right'
+	public:
+		Expression *left;	//declaration of pointer variable 'left'
+		Expression *right;	//declaration of pointer variable 'right'
 
-	string evaluate(); //evaluate left expression and right expression
-	void print(); //prints expression
-	float convert (string s); //Converts a string (as would be returned by evaluate) to a float
+		string evaluate(); //evaluate left expression and right expression
+		void print(); //prints expression
+		float convert (string s); //converts a string (as would be returned by evaluate) to a float
 };
 
 #endif

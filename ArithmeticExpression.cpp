@@ -7,16 +7,14 @@
 
 #include "ArithmeticExpression.h"
 
-//Function Definitions
-
-string ArithmeticExpression::evaluate() {
-	//evaluate left expression and right expression
+string evaluate() {
+	//blah
 }
 
-void ArithmeticExpression::print() {
-	//prints expression
+void print() {
+	//blah
 }
 
-float ArithmeticExpression::convert(string s) {
-	//Converts a string (as would be returned by evaluate) to a float
+float convert (string s) {
+	//blah
 }

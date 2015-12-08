@@ -10,16 +10,13 @@
 
 #include <iostream>
 #include <string>
+#include "ArithmeticExpression.h"
 using namespace std;
 
 //Add two expressions
-class Add : public ArithmeticExpression {
-	string evaluate() {
-		//...
-	}
-	void print() {
-		// (left `+` right)
-	}
+class Addition: public ArithmeticExpression {
+	string evaluate();
+	void print();
 };
 
 #endif

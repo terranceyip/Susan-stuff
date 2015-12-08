@@ -7,10 +7,11 @@
 
 #include "Subtraction.h"
 
-string Subtract::evaluate() {
-	//...
+
+string Subtraction::evaluate() {
+
 }
 
-void Subtract::print() {
+void Subtraction::print() {
 	// (left `+` right)
 }
