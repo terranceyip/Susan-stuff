@@ -16,10 +16,6 @@ class Expression {
 	//Function Declarations
 	virtual string evaluate(); //evaluate expression and return string representation of the result
 	virtual void print(); // prints expression
-
-	//Destructors
-	virtual string ~evaluate();
-	virtual void ~print();
 };
 
 #endif

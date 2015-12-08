@@ -9,10 +9,10 @@
 
 //Function Definitions
 
-virtual string Expression::evaluate() {
+string Expression::evaluate() {
 	// evaluate expression and return string representation of the result
 }
 
-virtual void Expression::print() {
+void Expression::print() {
 	//prints expression
 }

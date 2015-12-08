@@ -7,12 +7,11 @@
 
 #include "Division.h"
 
-//Function Definitions
 
-string Divide::evaluate() {
-	//...
+string Division::evaluate() {
+
 }
 
-void Divide::print() {
+void Division::print() {
 	//(left `/` right)
 }

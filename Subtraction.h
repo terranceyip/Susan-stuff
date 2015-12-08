@@ -10,16 +10,12 @@
 
 #include <iostream>
 #include <string>
+#include "ArithmeticExpression.h"
 using namespace std;
 
 //Subtract two expressions
-class Subtract: public ArithmeticExpression {
-	string evaluate() {
-		//...
-	}
-	void print() {
-		// (left `-` right)
-	}
+class Subtraction: public ArithmeticExpression {
+	string evaluate();
+	void print();
 };
-
 #endif

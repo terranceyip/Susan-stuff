@@ -9,10 +9,10 @@
 
 //Function Definitions
 
-string Multiply::evaluate() {
-	//...
+string Multiplication::evaluate() {
+
 }
 
-void Multiply::print() {
+void Multiplication::print() {
 	// (left `*` right)
 }

@@ -10,16 +10,12 @@
 
 #include <iostream>
 #include <string>
+#include "ArithmeticExpression.h"
 using namespace std;
 
 //Multiply two expressions
-class Multiply: public ArithmeticExpression {
-	string evaluate() {
-		//…
-	}
-	void print() {
-		// (left `*` right)
-	}
+class Multiplication: public ArithmeticExpression {
+	string evaluate();
+	void print();
 };
-
 #endif

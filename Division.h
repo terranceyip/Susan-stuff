@@ -10,16 +10,13 @@
 
 #include <iostream>
 #include <string>
+#include "ArithmeticExpression.h"
 using namespace std;
 
 //Divide two expressions
-class Divide: public ArithmeticExpression {
-	string evaluate() {
-		//...
-	}
-	void print() {
-		// (left `/` right)
-	}
+class Division: public ArithmeticExpression {
+	string evaluate();
+	void print();
 };
 
 #endif
