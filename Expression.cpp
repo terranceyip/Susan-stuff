@@ -2,17 +2,19 @@
  * Name: Terrance Yip, Susan Yuen, William Tran
  * MacID: yipsh, yuens2, tranwt
  * Student Number: 1415472, 1416198, 1407613
- * Description: [This is an informative excerpt about this file.]
+ * Description: Holds the virtual function definitions for Expression.
  */
 
 #include "Expression.h"
 
-//Function Definitions
-
 string Expression::evaluate() {
-	// evaluate expression and return string representation of the result
+	//evaluates the expression and returns a string representation of the result
 }
 
 void Expression::print() {
-	//prints expression
+	//prints the expression
+}
+
+Expression::~Expression() {
+	//virtual destructor
 }
